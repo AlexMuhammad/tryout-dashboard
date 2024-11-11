@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+  </head>
+  <body>
+    <button
+      data-drawer-target="default-sidebar"
+      data-drawer-toggle="default-sidebar"
+      aria-controls="default-sidebar"
+      type="button"
+      class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+    >
+      <span class="sr-only">Open sidebar</span>
+      <svg
+        class="w-6 h-6"
+        aria-hidden="true"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
+        ></path>
+      </svg>
+    </button>
+
+    <aside
+      id="default-sidebar"
+      class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+      aria-label="Sidebar"
+    >
+      <div class="h-full px-3 py-4 overflow-y-auto bg-[#1C2434]">
+        <ul class="space-y-2 font-medium">
+          <li>
+            <a
+              href="#"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+            >
+              <svg
+                class="w-5 h-5 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 22 21"
+              >
+                <path
+                  d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z"
+                />
+                <path
+                  d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z"
+                />
+              </svg>
+              <span class="ms-3 text-white">Try Out</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <div class="p-4 sm:ml-64">
+      <div class="p-4">
+        <div class="space-y-5">
+          <div
+            class="max-w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <div class="w-full px-6 py-3 bg-[#3A8BFF] rounded-t-lg">
+              <h1 class="text-white text-xl font-semibold">Informasi</h1>
+            </div>
+            <div class="w-full px-8 py-3">
+              <ol
+                class="max-w-full space-y-2 text-black list-decimal text-sm italic list-inside dark:text-gray-400"
+              >
+                <li>
+                  Login pada sistem tes online sesuai dengan email dan password
+                  yang sudah didaftarkan.
+                </li>
+                <li>
+                  Durasi tes akan berlangsung sesuai dengan durasi yang tertera.
+                  Waktu tes akan tampil di layar komputer dan menghitung mundur
+                  saat soal tes mulai diakses. Butir soal akan muncul di layar
+                  komputer satu per satu.
+                </li>
+                <li>
+                  Menjawab soal tes dapat dilakukan dengan 2 cara: memilih
+                  jawaban benar menggunakan mouse atau memilih jawaban benar
+                  dengan menekan keyboard (huruf A atau B, C, D).
+                </li>
+                <li>
+                  Jika terjadi salah pilih jawaban, peserta dapat memperbaiki
+                  jawaban dengan cara mengganti pilihan dengan jawaban yang
+                  dianggap benar. Jawaban Anda otomatis akan diganti dengan
+                  pilihan jawaban yang terakhir. Mengganti jawaban beberapa kali
+                  dapat dilakukan dan tidak mengurangi nilai peserta, namun
+                  harus dipertimbangkan waktunya.
+                </li>
+                <li>
+                  Jika terjadi salah pilih jawaban, peserta dapat memperbaiki
+                  jawaban dengan cara mengganti pilihan dengan jawaban yang
+                  dianggap benar. Jawaban Anda otomatis akan diganti dengan
+                  pilihan jawaban yang terakhir. Mengganti jawaban beberapa kali
+                  dapat dilakukan dan tidak mengurangi nilai peserta, namun
+                  harus dipertimbangkan waktunya.
+                </li>
+                <li>
+                  Untuk memudahkan peserta mengidentifikasi kelengkapan jawaban,
+                  soal-soal yang belum dijawab ditandai dengan warna merah pada
+                  sisi kanan layar. Indikator Soal Ujian tersebut akan otomatis
+                  berubah menjadi warna hijau setelah peserta menjawab soal.
+                </li>
+                <li>
+                  Aplikasi TOEFL akan berhenti secara otomatis ketika waktu tes
+                  berakhir (hitungan mundur menjadi angka 0).
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div
+            class="max-w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+          >
+            <div class="w-full px-6 py-3 bg-[#3A8BFF] rounded-t-lg">
+              <h1 class="text-white text-xl font-semibold">Deskripsi Ujian</h1>
+            </div>
+            <div class="w-full px-8 py-3 space-y-3">
+              <div class="grid grid-cols-2">
+                <span class="font-semibold">Email</span>
+                <span>: joko@mail.com</span>
+              </div>
+              <hr />
+              <div class="grid grid-cols-2">
+                <span>Nama</span>
+                <span>: Joko Suleman</span>
+              </div>
+              <hr />
+              <div class="grid grid-cols-2">
+                <span>Kategori</span>
+                <span
+                  class="w-fit bg-blue-800 text-blue-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300"
+                  >TOEFL</span
+                >
+              </div>
+              <hr />
+              <div class="grid grid-cols-2">
+                <span>Judul Ujian</span>
+                <span>: Try Out TOEFL 1</span>
+              </div>
+              <hr />
+              <div class="w-full flex items-center justify-center">
+                <button
+                  type="button"
+                  class="text-white bg-yellow-700 hover:bg-yellow-800 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-yellow-600 dark:hover:bg-yellow-700 focus:outline-none dark:focus:ring-yellow-800"
+                >
+                  Mulai
+                </button>
+                <button
+                  type="button"
+                  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                >
+                  Lihat Hasil
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
